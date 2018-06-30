@@ -1,0 +1,99 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+body{ 
+	background: #ededed;
+
+}
+header{
+	position:fixed;
+	width:100%;
+	height:50px;
+	background:#3b5998;
+	z-index: 7;
+	color:#fff;
+	top:0;
+	left:0;
+
+}
+.head a i{
+	margin-top: 10px;
+	font-size: 30px;	
+	color:#fff;
+}
+.head a:hover{
+	color: red;
+}
+.head{
+	float:left;
+	margin-left: 20px;
+}
+.head2 input[type="text"]{
+	float:left;
+	width:400px;
+	height:22px;
+	margin-top:12px;
+	margin-left: 15px;
+	font-weight: bold;
+	border: 1px solid white;
+	border-top-left-radius: 2px;
+	border-bottom-left-radius: 2px;
+	padding:2px;
+}
+.head2 a i{
+	float:left;
+	width:50px;
+	height:26px;
+	text-align: center;
+	color:#000;
+	font-size: 20px;
+	background:#ddd;
+	margin-top: 12px;
+	border: 1px solid #ddd;
+	border-top-right-radius: 2px;
+	border-bottom-right-radius: 2px;
+	
+}
+#left{
+	float:left;
+}
+#sandhu{
+	float:left;
+	width:30px;
+	height:28px;
+	margin-left: 220px;
+	margin-top: 12px;
+}
+ul{
+	margin:0px;
+	padding: 0px;
+	float:left;
+}
+#left li{
+	display:inline-block;
+}
+li{
+	display:inline;
+	list-style: none;
+	margin-left: 5px;
+	margin-top: 18px;
+
+}
+#left ul li a{
+	margin-top: 30px;
+}
+#left a i{
+	color:#000;
+	font-size: 25px;
+	background-color: #3b5998;
+	border: 1px solid #3b5998;
+	margin-top: 14px;
+}
+
+#fid{
+	float:left;
+	margin-left: 10px;
+	height:30px;
+	margin-top: 12px;
+}
